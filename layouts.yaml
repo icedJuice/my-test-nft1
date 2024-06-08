@@ -1,0 +1,1028 @@
+template: synthetic_png
+engine: 0.1.0
+config:
+  mime: image/png
+  size:
+    width: 64
+    height: 64
+  transparency: false
+  option:
+    user_selectable: false
+    onchain_storage: true
+suites:
+  - name: rabbit
+    backgrounds:
+      - color: '#D7F8FF'
+      - color: '#AE9B81'
+      - color: '#C371A8'
+      - color: '#757EFF'
+      - color: '#AF9F76'
+      - color: '#FFB086'
+      - color: '#A9C5B4'
+      - color: '#2A2A2F'
+      - color: '#9AAFAF'
+      - color: '#AA988D'
+    layers:
+      - name: desktop
+        items:
+          - image: table01.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table01
+          - image: table02.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table02
+          - image: table03.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table03
+          - image: table04.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table04
+          - image: table05.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table05
+          - image: table06.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table06
+          - image: table07.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table07
+          - image: table08.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table08
+          - image: table09.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table09
+          - image: table10.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table10
+      - name: body
+        items:
+          - image: black01.png
+            x: 16
+            y: 14
+            width: 46
+            height: 46
+            display_type: string
+            trait_type: body
+            value: black01
+          - image: blue01.png
+            x: 16
+            y: 14
+            width: 46
+            height: 46
+            display_type: string
+            trait_type: body
+            value: blue01
+          - image: cyan01.png
+            x: 16
+            y: 14
+            width: 46
+            height: 46
+            display_type: string
+            trait_type: body
+            value: cyan01
+          - image: deepblue01.png
+            x: 16
+            y: 14
+            width: 46
+            height: 46
+            display_type: string
+            trait_type: body
+            value: deepblue01
+          - image: green01.png
+            x: 16
+            y: 14
+            width: 46
+            height: 46
+            display_type: string
+            trait_type: body
+            value: green01
+          - image: grey01.png
+            x: 16
+            y: 14
+            width: 46
+            height: 46
+            display_type: string
+            trait_type: body
+            value: grey01
+          - image: pink01.png
+            x: 16
+            y: 14
+            width: 46
+            height: 46
+            display_type: string
+            trait_type: body
+            value: pink01
+          - image: purple01.png
+            x: 16
+            y: 14
+            width: 46
+            height: 46
+            display_type: string
+            trait_type: body
+            value: purple01
+          - image: white01.png
+            x: 16
+            y: 14
+            width: 46
+            height: 46
+            display_type: string
+            trait_type: body
+            value: white01
+          - image: white02.png
+            x: 16
+            y: 14
+            width: 46
+            height: 46
+            display_type: string
+            trait_type: body
+            value: white02
+      - name: hair
+        items:
+          - image: clown01.png
+            x: 24
+            y: 12
+            width: 39
+            height: 20
+            display_type: string
+            trait_type: hair
+            value: clown01
+      - name: faces
+        items:
+          - image: face01.png
+            x: 30
+            y: 28
+            width: 16
+            height: 10
+            display_type: string
+            trait_type: faces
+            value: face01
+          - image: face02.png
+            x: 30
+            y: 28
+            width: 16
+            height: 10
+            display_type: string
+            trait_type: faces
+            value: face02
+          - image: face03.png
+            x: 30
+            y: 28
+            width: 16
+            height: 10
+            display_type: string
+            trait_type: faces
+            value: face03
+      - name: ears
+        items:
+          - image: black01.png
+            x: 36
+            y: 3
+            width: 21
+            height: 14
+            display_type: string
+            trait_type: ears
+            value: black01
+          - image: blue01.png
+            x: 36
+            y: 3
+            width: 21
+            height: 14
+            display_type: string
+            trait_type: ears
+            value: blue01
+          - image: clown01.png
+            x: 36
+            y: 3
+            width: 21
+            height: 14
+            display_type: string
+            trait_type: ears
+            value: clown01
+          - image: cyan01.png
+            x: 36
+            y: 3
+            width: 21
+            height: 14
+            display_type: string
+            trait_type: ears
+            value: cyan01
+          - image: deepblue01.png
+            x: 36
+            y: 3
+            width: 21
+            height: 14
+            display_type: string
+            trait_type: ears
+            value: deepblue01
+          - image: gray01.png
+            x: 36
+            y: 3
+            width: 21
+            height: 14
+            display_type: string
+            trait_type: ears
+            value: gray01
+          - image: green01.png
+            x: 36
+            y: 3
+            width: 21
+            height: 14
+            display_type: string
+            trait_type: ears
+            value: green01
+          - image: pink01.png
+            x: 36
+            y: 3
+            width: 21
+            height: 14
+            display_type: string
+            trait_type: ears
+            value: pink01
+          - image: purple01.png
+            x: 36
+            y: 3
+            width: 21
+            height: 14
+            display_type: string
+            trait_type: ears
+            value: purple01
+          - image: white01.png
+            x: 36
+            y: 3
+            width: 21
+            height: 14
+            display_type: string
+            trait_type: ears
+            value: white01
+      - name: eyes
+        items:
+          - image: clown01.png
+            x: 30
+            y: 20
+            width: 20
+            height: 10
+            display_type: string
+            trait_type: eyes
+            value: clown01
+          - image: eyes01.png
+            x: 30
+            y: 20
+            width: 20
+            height: 10
+            display_type: string
+            trait_type: eyes
+            value: eyes01
+          - image: eyes02.png
+            x: 30
+            y: 20
+            width: 20
+            height: 10
+            display_type: string
+            trait_type: eyes
+            value: eyes02
+          - image: eyes03.png
+            x: 30
+            y: 20
+            width: 20
+            height: 10
+            display_type: string
+            trait_type: eyes
+            value: eyes03
+          - image: eyes04.png
+            x: 30
+            y: 20
+            width: 20
+            height: 10
+            display_type: string
+            trait_type: eyes
+            value: eyes04
+          - image: eyes05.png
+            x: 30
+            y: 20
+            width: 20
+            height: 10
+            display_type: string
+            trait_type: eyes
+            value: eyes05
+      - name: glasses
+        items:
+          - image: glass01.png
+            x: 24
+            y: 18
+            width: 36
+            height: 11
+            display_type: string
+            trait_type: glasses
+            value: glass01
+          - image: glass02.png
+            x: 24
+            y: 18
+            width: 36
+            height: 11
+            display_type: string
+            trait_type: glasses
+            value: glass02
+      - name: clothes
+        items:
+          - image: black01.png
+            x: 20
+            y: 34
+            width: 42
+            height: 22
+            display_type: string
+            trait_type: clothes
+            value: black01
+          - image: clown01.png
+            x: 20
+            y: 34
+            width: 42
+            height: 22
+            display_type: string
+            trait_type: clothes
+            value: clown01
+          - image: green01.png
+            x: 20
+            y: 34
+            width: 42
+            height: 22
+            display_type: string
+            trait_type: clothes
+            value: green01
+          - image: lightblue01.png
+            x: 20
+            y: 34
+            width: 42
+            height: 22
+            display_type: string
+            trait_type: clothes
+            value: lightblue01
+          - image: orange01.png
+            x: 20
+            y: 34
+            width: 42
+            height: 22
+            display_type: string
+            trait_type: clothes
+            value: orange01
+          - image: pink01.png
+            x: 20
+            y: 34
+            width: 42
+            height: 22
+            display_type: string
+            trait_type: clothes
+            value: pink01
+          - image: pink02.png
+            x: 20
+            y: 34
+            width: 42
+            height: 22
+            display_type: string
+            trait_type: clothes
+            value: pink02
+          - image: red01.png
+            x: 20
+            y: 34
+            width: 42
+            height: 22
+            display_type: string
+            trait_type: clothes
+            value: red01
+          - image: red02.png
+            x: 20
+            y: 34
+            width: 42
+            height: 22
+            display_type: string
+            trait_type: clothes
+            value: red02
+          - image: white01.png
+            x: 20
+            y: 34
+            width: 42
+            height: 22
+            display_type: string
+            trait_type: clothes
+            value: white01
+      - name: accessories
+        items:
+          - image: gold01.png
+            x: 38
+            y: 5
+            width: 22
+            height: 52
+            display_type: string
+            trait_type: accessories
+            value: gold01
+          - image: gold02.png
+            x: 28
+            y: 34
+            width: 22
+            height: 24
+            display_type: string
+            trait_type: accessories
+            value: gold02
+          - image: green01.png
+            x: 28
+            y: 34
+            width: 22
+            height: 24
+            display_type: string
+            trait_type: accessories
+            value: green01
+          - image: jadeite01.png
+            x: 36
+            y: 5
+            width: 22
+            height: 54
+            display_type: string
+            trait_type: accessories
+            value: jadeite01
+      - name: computer
+        items:
+          - image: computer01.png
+            x: 6
+            y: 43
+            width: 36
+            height: 18
+            display_type: string
+            trait_type: computer
+            value: computer01
+          - image: computer02.png
+            x: 6
+            y: 43
+            width: 36
+            height: 18
+            display_type: string
+            trait_type: computer
+            value: computer02
+          - image: computer03.png
+            x: 6
+            y: 43
+            width: 36
+            height: 18
+            display_type: string
+            trait_type: computer
+            value: computer03
+          - image: computer04.png
+            x: 6
+            y: 43
+            width: 36
+            height: 18
+            display_type: string
+            trait_type: computer
+            value: computer04
+          - image: computer05.png
+            x: 6
+            y: 43
+            width: 36
+            height: 18
+            display_type: string
+            trait_type: computer
+            value: computer05
+          - image: computer06.png
+            x: 6
+            y: 43
+            width: 36
+            height: 18
+            display_type: string
+            trait_type: computer
+            value: computer06
+          - image: computer07.png
+            x: 6
+            y: 43
+            width: 36
+            height: 18
+            display_type: string
+            trait_type: computer
+            value: computer07
+          - image: computer08.png
+            x: 6
+            y: 43
+            width: 36
+            height: 18
+            display_type: string
+            trait_type: computer
+            value: computer08
+  - name: crocodile
+    backgrounds:
+      - color: '#D7F8FF'
+      - color: '#AE9B81'
+      - color: '#C371A8'
+      - color: '#757EFF'
+      - color: '#AF9F76'
+      - color: '#FFB086'
+      - color: '#A9C5B4'
+      - color: '#2A2A2F'
+      - color: '#9AAFAF'
+      - color: '#AA988D'
+    layers:
+      - name: desktop
+        items:
+          - image: table01.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table01
+          - image: table02.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table02
+          - image: table03.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table03
+          - image: table04.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table04
+          - image: table05.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table05
+          - image: table06.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table06
+          - image: table07.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table07
+          - image: table08.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table08
+          - image: table09.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table09
+          - image: table10.png
+            x: 0
+            y: 51
+            width: 64
+            height: 13
+            display_type: string
+            trait_type: desktop
+            value: table10
+      - name: body
+        items:
+          - image: brown.png
+            x: 18
+            y: 10
+            width: 39
+            height: 51
+            display_type: string
+            trait_type: body
+            value: brown
+          - image: cherry.png
+            x: 18
+            y: 10
+            width: 39
+            height: 51
+            display_type: string
+            trait_type: body
+            value: cherry
+          - image: deepblue.png
+            x: 18
+            y: 10
+            width: 39
+            height: 51
+            display_type: string
+            trait_type: body
+            value: deepblue
+          - image: deepgreen.png
+            x: 18
+            y: 10
+            width: 39
+            height: 51
+            display_type: string
+            trait_type: body
+            value: deepgreen
+          - image: grass.png
+            x: 18
+            y: 10
+            width: 39
+            height: 51
+            display_type: string
+            trait_type: body
+            value: grass
+          - image: green.png
+            x: 18
+            y: 10
+            width: 39
+            height: 51
+            display_type: string
+            trait_type: body
+            value: green
+          - image: lightblue.png
+            x: 18
+            y: 10
+            width: 39
+            height: 51
+            display_type: string
+            trait_type: body
+            value: lightblue
+          - image: lightgreen.png
+            x: 18
+            y: 10
+            width: 39
+            height: 51
+            display_type: string
+            trait_type: body
+            value: lightgreen
+          - image: pink.png
+            x: 18
+            y: 10
+            width: 39
+            height: 51
+            display_type: string
+            trait_type: body
+            value: pink
+          - image: skyblue.png
+            x: 18
+            y: 10
+            width: 39
+            height: 51
+            display_type: string
+            trait_type: body
+            value: skyblue
+      - name: hats
+        items:
+          - image: blue_green.png
+            x: 32
+            y: 1
+            width: 21
+            height: 14
+            display_type: string
+            trait_type: hats
+            value: blue_green
+          - image: blue_purple.png
+            x: 32
+            y: 1
+            width: 21
+            height: 14
+            display_type: string
+            trait_type: hats
+            value: blue_purple
+          - image: orange.png
+            x: 32
+            y: 1
+            width: 21
+            height: 14
+            display_type: string
+            trait_type: hats
+            value: orange
+      - name: faces
+        items:
+          - image: face01.png
+            x: 19
+            y: 21
+            width: 14
+            height: 12
+            display_type: string
+            trait_type: faces
+            value: face01
+          - image: face02.png
+            x: 19
+            y: 21
+            width: 14
+            height: 12
+            display_type: string
+            trait_type: faces
+            value: face02
+      - name: eyes
+        items:
+          - image: black.png
+            x: 32
+            y: 13
+            width: 16
+            height: 10
+            display_type: string
+            trait_type: eyes
+            value: black
+          - image: blue01.png
+            x: 33
+            y: 11
+            width: 16
+            height: 10
+            display_type: string
+            trait_type: eyes
+            value: blue01
+          - image: blue02.png
+            x: 34
+            y: 11
+            width: 14
+            height: 10
+            display_type: string
+            trait_type: eyes
+            value: blue02
+          - image: brown.png
+            x: 32
+            y: 11
+            width: 16
+            height: 10
+            display_type: string
+            trait_type: eyes
+            value: brown
+          - image: cherry.png
+            x: 34
+            y: 12
+            width: 14
+            height: 8
+            display_type: string
+            trait_type: eyes
+            value: cherry
+          - image: green.png
+            x: 34
+            y: 11
+            width: 14
+            height: 10
+            display_type: string
+            trait_type: eyes
+            value: green
+          - image: skyblue.png
+            x: 33
+            y: 12
+            width: 15
+            height: 7
+            display_type: string
+            trait_type: eyes
+            value: skyblue
+      - name: glasses
+        items:
+          - image: black.png
+            x: 27
+            y: 20
+            width: 16
+            height: 9
+            display_type: string
+            trait_type: glasses
+            value: black
+          - image: green.png
+            x: 28
+            y: 9
+            width: 25
+            height: 15
+            display_type: string
+            trait_type: glasses
+            value: green
+          - image: purple.png
+            x: 28
+            y: 9
+            width: 25
+            height: 15
+            display_type: string
+            trait_type: glasses
+            value: purple
+      - name: clothes
+        items:
+          - image: blackhighneck.png
+            x: 24
+            y: 30
+            width: 37
+            height: 28
+            display_type: string
+            trait_type: clothes
+            value: blackhighneck
+          - image: blackpolo.png
+            x: 25
+            y: 31
+            width: 35
+            height: 24
+            display_type: string
+            trait_type: clothes
+            value: blackpolo
+          - image: deepbluepolo.png
+            x: 25
+            y: 29
+            width: 33
+            height: 26
+            display_type: string
+            trait_type: clothes
+            value: deepbluepolo
+          - image: green.png
+            x: 27
+            y: 33
+            width: 29
+            height: 22
+            display_type: string
+            trait_type: clothes
+            value: blackhighneck
+          - image: greensuit.png
+            x: 22
+            y: 33
+            width: 37
+            height: 28
+            display_type: string
+            trait_type: clothes
+            value: greensuit
+          - image: orange.png
+            x: 28
+            y: 33
+            width: 28
+            height: 21
+            display_type: string
+            trait_type: clothes
+            value: orange
+          - image: redhighneck.png
+            x: 23
+            y: 29
+            width: 39
+            height: 28
+            display_type: string
+            trait_type: clothes
+            value: redhighneck
+          - image: redsuit.png
+            x: 22
+            y: 32
+            width: 37
+            height: 29
+            display_type: string
+            trait_type: clothes
+            value: redsuit
+          - image: white.png
+            x: 20
+            y: 32
+            width: 40
+            height: 29
+            display_type: string
+            trait_type: clothes
+            value: white
+          - image: yellow.png
+            x: 26
+            y: 34
+            width: 29
+            height: 21
+            display_type: string
+            trait_type: clothes
+            value: yellow
+      - name: accessories
+        items:
+          - image: goldwine.png
+            x: 32
+            y: 33
+            width: 22
+            height: 28
+            display_type: string
+            trait_type: accessories
+            value: goldwine
+          - image: greenwine.png
+            x: 35
+            y: 34
+            width: 19
+            height: 27
+            display_type: string
+            trait_type: accessories
+            value: greenwine
+      - name: computer
+        items:
+          - image: computer01.png
+            x: 6
+            y: 43
+            width: 36
+            height: 18
+            display_type: string
+            trait_type: computer
+            value: computer01
+          - image: computer02.png
+            x: 6
+            y: 43
+            width: 36
+            height: 18
+            display_type: string
+            trait_type: computer
+            value: computer02
+          - image: computer03.png
+            x: 6
+            y: 43
+            width: 36
+            height: 18
+            display_type: string
+            trait_type: computer
+            value: computer03
+          - image: computer04.png
+            x: 6
+            y: 43
+            width: 36
+            height: 18
+            display_type: string
+            trait_type: computer
+            value: computer04
+          - image: computer05.png
+            x: 6
+            y: 43
+            width: 36
+            height: 18
+            display_type: string
+            trait_type: computer
+            value: computer05
+          - image: computer06.png
+            x: 6
+            y: 43
+            width: 36
+            height: 18
+            display_type: string
+            trait_type: computer
+            value: computer06
+          - image: computer07.png
+            x: 6
+            y: 43
+            width: 36
+            height: 18
+            display_type: string
+            trait_type: computer
+            value: computer07
+          - image: computer08.png
+            x: 6
+            y: 43
+            width: 36
+            height: 18
+            display_type: string
+            trait_type: computer
+            value: computer08
